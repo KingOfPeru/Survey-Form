@@ -1,0 +1,79 @@
+<h1 id="title">Subscribe to your favorite news</h1>
+
+<p id="description">Never miss another story!</p>
+<main>
+<form id="survey-form">
+  <div id="input-text-container">
+  <div>
+  <label id="name-label" for="name">
+    Name
+  </label>
+    <input type="text" id="name" name="name" placeholder="Enter name" required>
+      
+    </div>
+  
+  <div>
+  <label id="email-label" for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Enter email" required>
+  </div>
+  
+  <div>
+  <label id="number-label" for="number">Age (optional)</label>
+  <input type="number" min="18" max="25" id="number" placeholder="Enter your age">
+  </div>
+    
+    <label id="news-type-label" for="dropdown">What news would you like to receive?</label>
+<select name="dropdown" id="dropdown">
+  <option value="Soccer">Sports</option>
+  <option value="Basketball">Politics</option>
+  <option value="Football">Technology</option>
+  <option value="Hockey">Economy</option>
+</select>
+  </div>
+  
+  <p>How often would you like to receive news?</p>
+  
+  <label for="everyday">
+    <input id="everyday" type="radio" name="frequency" value="everyday">Everyday
+  </label>
+  <label for="weekends">
+    <input id="weekends" type="radio" name="frequency" value="weekends">Weekends
+    </label>
+  
+  <div>
+  <p>What news providers would you like to follow?</p>
+  
+  <label for="cnn">
+  <input id="cnn" name="providers" type="checkbox" value="cnn">cnn  
+  </label>
+  
+  <label for="fox">
+    <input id="fox" name="providers" value="fox" type="checkbox">fox
+  </label>
+  
+  <label for="rt">
+    <input name="providers" id="rt" value="rt" type="checkbox">rt
+  </label>
+    
+    <label>
+      <input type="checkbox" name="providers" id="other" value="other">other
+    </label>
+  </div>
+  
+  <div>
+    <p>Enter your comments</p>
+  <textarea id="textarea" rows="4" cols="50" placeholder="Enter comments here"></textarea>
+  </div>
+  <button type="submit" id="submit">Submit</button>
+  
+</form>
+</main>
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
